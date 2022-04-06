@@ -1,0 +1,68 @@
+%Metadata for:
+FileName: <memory>
+MestagMemo: C1*
+Type: XY
+Comment:   F1 ; lineshift2xyz2
+MeasurementDate: 2021.11.10. 14:31:23,998
+Creator: FEMTO-0094.SN20130033001-MKole_1/measurement.admin using MES v6.3.7902 ©Femtonics
+creatingMEScRevision: 7902
+creatingMEScVersion: 6
+experimenterHostname: FEMTO-0094
+experimenterProfilename: admin
+experimenterSetupID: SN20130033001-MKole_1
+experimenterUsername: measurement
+ZlevelArm: -11939.61
+ZlevelFast: 0
+ZlevelOrigin: 0
+>Devices start
+ dummy: 6
+ CameraSwitchDevice: 1
+ tIR: 40
+ LG: 0
+ UG: 95
+ LR: 0
+ UR: 95
+ PMT_EN: on
+ LightpathMirror_PWM_OUTPUT: on
+ ScannerChangeMirror_PWM_OUTPUT: on
+ PCm: 0.01
+ Lamp_Switch: 0
+ Lamp: 50
+ L473: 16.6
+ L561: 10.2
+ Im: 39.9079
+ ScannerChangeAPT: 1.9588
+ CouplingX: 0
+ CouplingY: 0
+ ObjectiveArm: -11939.61
+ FastZ: 0
+<Devices end
+>Context start: Measure
+%SIZE
+ Width: 439
+ Height: 35
+ D3Size: 98
+%VOXEL
+ WidthStep: 0.40223
+ HeightStep: 0.40223
+ D3Step: 49.168
+
+ WidthOrigin: 0
+ HeightOrigin: 0
+ D3Origin: 147.504
+ WidthName: L
+ HeightName: t
+ D3Name: t
+ WidthUnit: µm
+ HeightUnit: �m
+ D3Unit: ms
+ Average: 2
+>>Channel start: UGpLG
+DataType: double
+LUTchannel: ch_g
+<<Channel end
+>>Channel start: URpLR
+DataType: double
+LUTchannel: ch_g
+<<Channel end
+<Context end
